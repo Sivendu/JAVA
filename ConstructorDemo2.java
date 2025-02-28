@@ -1,25 +1,25 @@
-class Student
+class Employee
 {
-    int rno;
+    int eno;
     String name;
-    Student(int r,String n)
+    Employee(int r,String n)
     {
-        rno=r;
+        eno=r;
         name=n;
     }
     void display()
     {
-        System.out.println("Student Detials");
+        System.out.println("Employee Detials");
         System.out.println(".......");
         System.out.println("Name:"+name);
-        System.out.println("Rollno:"+rno);
+        System.out.println("Rollno:"+eno);
     }  
 }
-public class ConstructorDemo
+public class ConstructorDemo2
 {
     public static void main(String args[])
     {
-        Student ob=new Student(12,"Anu");
+        Employee ob=new Employee(1,"krish");
         ob.display();
     }
 }
